@@ -1,0 +1,12 @@
+version: 2
+models:
+ - name: modelfornulls
+   tests:
+    - not_null_singular
+ - name: modelfronulls2
+   tests:
+    - not_null_singular
+ - name: modelfornuls3 
+   tests:
+    - not_null_singular:
+       columns: ['COL5','COL6']        
